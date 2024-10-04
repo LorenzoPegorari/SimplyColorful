@@ -2,6 +2,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 -8px;
 	padding: 4px 8px;
 	border-radius: 4px;
+	transition: all .75s ease;
 }
 
 h1 {
@@ -28,35 +29,26 @@ h6 {
 	background-color: rgba(var(--color-yellow-rgb), 0.1);
 }
 
-div.is-flashing {
-	background-color: transparent !important;
-}
-
-div.is-flashing h1, div.is-flashing h2, div.is-flashing h3,
-div.is-flashing h4, div.is-flashing h5, div.is-flashing h6 {
-	transition: all 1s ease;
-}
-
-div.is-flashing h1 {
+h1:hover {
 	background-color: rgba(var(--color-blue-rgb), 0.3);
 }
 
-div.is-flashing h2 {
+h2:hover {
 	background-color: rgba(var(--color-purple-rgb), 0.3);
 }
 
-div.is-flashing h3 {
+h3:hover {
 	background-color: rgba(var(--color-pink-rgb), 0.3);
 }
 
-div.is-flashing h4 {
+h4:hover {
 	background-color: rgba(var(--color-red-rgb), 0.3);
 }
 
-div.is-flashing h5 {
+h5:hover {
 	background-color: rgba(var(--color-orange-rgb), 0.3);
 }
 
-div.is-flashing h6 {
+h6:hover {
 	background-color: rgba(var(--color-yellow-rgb), 0.3);
 }
