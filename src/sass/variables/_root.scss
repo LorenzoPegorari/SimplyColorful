@@ -346,10 +346,10 @@ body {
 	--blockquote-color: var(--text-muted);
 
 	/* Callout */
-	// --callout-border-width: 0px;
+	--callout-border-width: 2px;
 	// --callout-border-opacity: 0.25;
-	// --callout-padding: var(--size-4-3) var(--size-4-3) var(--size-4-3) var(--size-4-6);
-	// --callout-radius: var(--radius-s);
+	--callout-padding: var(--size-4-3) var(--size-4-3) var(--size-4-3) var(--size-4-6);
+	--callout-radius: var(--radius-m);
 	// --callout-blend-mode: var(--highlight-mix-blend-mode);
 	// --callout-title-color: inherit;
 	// --callout-title-padding: 0;

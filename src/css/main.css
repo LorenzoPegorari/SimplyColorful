@@ -74,6 +74,9 @@ body {
 	--blockquote-border-color: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.5);
 	--blockquote-color: var(--text-muted);
 	/* Callout */
+	--callout-border-width: 2px;
+	--callout-padding: var(--size-4-3) var(--size-4-3) var(--size-4-3) var(--size-4-6);
+	--callout-radius: var(--radius-m);
 	/* Code */
 	--code-radius: var(--radius-m);
 	/* Embed */
@@ -288,6 +291,16 @@ div.is-flashing h5 {
 
 div.is-flashing h6 {
 	background-color: rgba(var(--color-yellow-rgb), 0.3); }
+
+.markdown-rendered blockquote {
+	padding: var(--size-4-3) var(--size-4-3) var(--size-4-5) var(--size-4-6);
+	border-radius: 0 var(--radius-m) var(--radius-m) 0; }
+
+.callout {
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-radius: 0 var(--callout-radius) var(--callout-radius) 0; }
 
 /* Plugins */
 .block-language-dataview.node-insert-event {
