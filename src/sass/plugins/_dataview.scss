@@ -1,0 +1,21 @@
+.block-language-dataview.node-insert-event {
+	max-height: 750px;
+}
+
+.dataview.table-view-table .table-view-thead {
+	font-size: var(--font-smaller);
+}
+
+.dataview.table-view-table .table-view-thead th.table-view-th {
+	text-align: center;
+	margin: auto;
+	padding: var(--font-smaller) 0;
+}
+
+.dataview.table-view-table .table-view-tbody {
+	font-size: var(--font-smallest);
+}
+
+.dataview.table-view-table .table-view-tbody td {
+	text-align: center;
+}

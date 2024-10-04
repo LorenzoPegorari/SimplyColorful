@@ -1,0 +1,9 @@
+span.advanced-tables-row-label {
+	color: var(--text-muted);
+	font-weight: 400;
+	font-size: var(--font-ui-small);
+}
+
+.widget-icon:hover {
+	fill: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+}

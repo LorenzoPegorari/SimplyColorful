@@ -1,0 +1,15 @@
+{
+  "name": "simply-colorful",
+  "version": "1.0.0",
+  "description": "Theme for Obsidian",
+  "author": "Lorenzo Pegorari",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-concat-css": "^0.3.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-env": "^1.0.1",
+    "grunt-sass": "^3.1.0",
+    "node-sass": "^9.0.0"
+  }
+}
