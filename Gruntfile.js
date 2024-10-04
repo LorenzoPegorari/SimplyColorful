@@ -55,13 +55,8 @@ module.exports = function(grunt) {
 			local: {
 				expand: true,
 				src: 'theme.css',
-				dest: 'C:/Users/User/Desktop/Simply Colorful Vault/.obsidian/themes/Simply Colorful/',
+				dest: process.env.OBSIDIAN_PATH,
 			},
-			debug: {
-				expand: true,
-				src: 'theme.css',
-				dest: 'C:/Users/User/Desktop/Obsidian Vault/.obsidian/themes/Simply Colorful/',
-			}
 		},
 
 		/* Watches for changes, and compile new changes */
