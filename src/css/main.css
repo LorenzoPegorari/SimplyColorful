@@ -104,7 +104,6 @@ body {
 	--inline-title-size: 1.92em;
 	--inline-title-weight: 700;
 	/* Link */
-	--link-external-filter: hue-rotate(-55deg) saturate(125%) contrast(125%);
 	--link-unresolved-opacity: 0.7;
 	--link-unresolved-filter: grayscale(25%);
 	/* List */
@@ -210,6 +209,9 @@ body {
 	--h4-color: var(--color-red);
 	--h5-color: var(--color-orange);
 	--h6-color: var(--color-yellow);
+	/* Link */
+	--link-external-color: #0071e3;
+	--link-external-color-hover: #0764c1;
 	/* OTHER */
 	--collapse-icon-color-collapsed: var(--text-faint); }
 
