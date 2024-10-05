@@ -16,10 +16,7 @@
 
 ![](/imgs/dark.png)
 # Installation
-To install the Simply colorful theme follow these instructions:
-- open Obsidian `Settings`,
-- open the `Appearance` tab in the `Options` sidemenu,
-- under community themes search for "Simply colorful" and click `Install and use`.
+Waiting for approval on [pull request #4323](https://github.com/obsidianmd/obsidian-releases/pull/4323) to [`obsidian-releases`](https://github.com/obsidianmd/obsidian-releases#community-theme).
 # Credits
 A **big** thanks to [@kepano](https://github.com/kepano)'s [Minimal Theme](https://github.com/kepano/obsidian-minimal), that I used as a reference for this theme.
 
