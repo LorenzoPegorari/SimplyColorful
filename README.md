@@ -16,7 +16,7 @@
 
 ![](/imgs/dark.png)
 # Installation
-Waiting for approval on [pull request #4323](https://github.com/obsidianmd/obsidian-releases/pull/4323) to [`obsidian-releases`](https://github.com/obsidianmd/obsidian-releases#community-theme).
+Waiting for approval on [pull request #4403](https://github.com/obsidianmd/obsidian-releases/pull/4403) to [`obsidian-releases`](https://github.com/obsidianmd/obsidian-releases#community-theme).
 # Credits
 A **big** thanks to [@kepano](https://github.com/kepano)'s [Minimal Theme](https://github.com/kepano/obsidian-minimal), that I used as a reference for this theme.
 
