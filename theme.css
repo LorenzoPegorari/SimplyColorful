@@ -272,7 +272,6 @@ body {
 /* Window */
 /* Graph */
 .workspace-leaf-content[data-type~="graph"] {
-	background: var(--background-primary);
 	background: radial-gradient(circle, var(--color-base-10) 0%, var(--background-primary-alt) 20%, var(--background-primary) 80%, var(--background-primary) 100%); }
 
 .workspace-leaf-content[data-type~="graph"] .view-header {
@@ -282,6 +281,9 @@ body {
 	background: transparent; }
 
 .workspace-leaf-content[data-type~="graph"] .view-content {
+	background: transparent; }
+
+.graph-controls.is-close {
 	background: transparent; }
 
 /* Editor */
