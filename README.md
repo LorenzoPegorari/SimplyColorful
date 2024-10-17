@@ -1,19 +1,22 @@
 ![](/imgs/header.png)
 
 **Simply colorful** is an [Obsidian](https://obsidian.md/) theme for desktop created by [LorenzoPegorari](https://github.com/LorenzoPegorari).
+
+This theme was created for the following reasons:
+1. to make the most prominent parts of the notes more easily identifiable, making *skimming* faster,
+2. to quickly distinguish every portion of the note (different headings, internal links, external links, etc.),
+3. to give the user a visually pleasing note-taking experience by making a strong use of the chosen personalized *accent color*.
 ## Index
 - [Images](#images)
 - [Installation](#installation)
+- [Feedback](#feedback)
 - [Credits](#credits)
 - [License](#license)
 - [Disclaimer](#disclaimer)
 # Images
-*Light mode*:
-
+### Light mode example:
 ![](/imgs/light.png)
-
-*Dark mode*:
-
+### Dark mode example:
 ![](/imgs/dark.png)
 # Installation
 This theme was reviewed by the [Obisidan team](https://github.com/obsidianmd), and was inserted in the [official list of themes](https://github.com/obsidianmd/obsidian-releases/blob/master/community-css-themes.json) after approval on [pull request #4403](https://github.com/obsidianmd/obsidian-releases/pull/4403).
@@ -21,8 +24,12 @@ This theme was reviewed by the [Obisidan team](https://github.com/obsidianmd), a
 This means that it can be easily installed by following the instruction below:
 - open Obsidian `Settings`,
 - open the `Appearance` tab in the `Options` sidemenu,
-- under `Themes` click `Manage`,
+- click `Manage` next to `Themes`,
 - search for "**Simply colorful**" and click `Install and use`.
+# Feedback
+If you encounter any issues or have any suggestions, feel free to contact me on the [Obsidian discord](https://discord.com/invite/obsidianmd) (@UberLias) or on the [main discussion in the Obsidian forum](https://forum.obsidian.md/t/theme-simply-colorful/89992).
+
+You can also [submit an issue](https://github.com/LorenzoPegorari/SimplyColorful/issues) or raise a [pull request](https://github.com/LorenzoPegorari/SimplyColorful/pulls) if you want.
 # Credits
 A **big** thanks to [@kepano](https://github.com/kepano)'s [Minimal Theme](https://github.com/kepano/obsidian-minimal), that I used as a reference for this theme.
 
