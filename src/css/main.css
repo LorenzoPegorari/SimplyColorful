@@ -175,10 +175,10 @@ body {
 	--color-base-00: #191919;
 	--color-base-05: #1e1e1e;
 	--color-base-10: #222222;
-	--color-base-20: #242424;
-	--color-base-25: #282828;
-	--color-base-30: #343434;
-	--color-base-35: #3d3d3d;
+	--color-base-20: #313131;
+	--color-base-25: #363636;
+	--color-base-30: #414141;
+	--color-base-35: #4c4c4c;
 	--color-base-40: #555555;
 	--color-base-50: #666666;
 	--color-base-60: #999999;
@@ -344,6 +344,10 @@ div.reset-button.svelte-1vwr9dd.svelte-1vwr9dd {
 .dataview.table-view-table .table-view-tbody td {
 	text-align: center; }
 
+.themed-color-wrapper .pickr-reset button {
+	background-color: var(--color-base-20);
+	color: var(--color-base-100); }
+
 /* For plugin "Style Settings" */
 /* @settings
 
@@ -354,58 +358,65 @@ settings:
 		id: bold-color
 		title: Bold color
 		description: Defines the color of bold text
-		type: variable-color
+		type: variable-themed-color
 		opacity: false
 		format: rgb
-		default: '#'
+		default-light: '#'
+		default-dark: '#'
 	-
 		id: italic-color
 		title: Italic color
 		description: Defines the color of italic text
-		type: variable-color
+		type: variable-themed-color
 		opacity: false
 		format: rgb
-		default: '#'
+		default-light: '#'
+		default-dark: '#'
 	-
 		id: text-accent
 		title: Internal link color
 		description: Defines the color of internal links
-		type: variable-color
+		type: variable-themed-color
 		opacity: false
 		format: rgb
-		default: '#'
+		default-light: '#'
+		default-dark: '#'
 	-
 		id: text-accent-hover
 		title: Internal link hover color
 		description: Defines the color of internal links while hovered
-		type: variable-color
+		type: variable-themed-color
 		opacity: false
 		format: rgb
-		default: '#'
+		default-light: '#'
+		default-dark: '#'
 	-
 		id: link-external-color
 		title: External link color
 		description: Defines the color of external links
-		type: variable-color
+		type: variable-themed-color
 		opacity: false
 		format: rgb
-		default: '#'
+		default-light: '#'
+		default-dark: '#'
 	-
 		id: link-external-color-hover
 		title: External link hover color
 		description: Defines the color of external links while hovered
-		type: variable-color
+		type: variable-themed-color
 		opacity: false
 		format: rgb
-		default: '#'
+		default-light: '#'
+		default-dark: '#'
 	-
 		id: text-highlight-bg
 		title: Highlight color
 		description: Defines the color of highlighted text
-		type: variable-color
+		type: variable-themed-color
 		opacity: false
 		format: rgb
-		default: '#'
+		default-light: '#'
+		default-dark: '#'
 	-
 		id: sc-headings
 		title: Interface colors
@@ -417,48 +428,54 @@ settings:
 		id: h1-color
 		title: Heading 1 color
 		description: Defines the color of heading 1
-		type: variable-color
+		type: variable-themed-color
 		opacity: false
 		format: rgb
-		default: '#'
+		default-light: '#'
+		default-dark: '#'
 	-
 		id: h2-color
 		title: Heading 2 color
 		description: Defines the color of heading 2
-		type: variable-color
+		type: variable-themed-color
 		opacity: false
 		format: rgb
-		default: '#'
+		default-light: '#'
+		default-dark: '#'
 	-
 		id: h3-color
 		title: Heading 3 color
 		description: Defines the color of heading 3
-		type: variable-color
+		type: variable-themed-color
 		opacity: false
 		format: rgb
-		default: '#'
+		default-light: '#'
+		default-dark: '#'
 	-
 		id: h4-color
 		title: Heading 4 color
 		description: Defines the color of heading 4
-		type: variable-color
+		type: variable-themed-color
 		opacity: false
 		format: rgb
-		default: '#'
+		default-light: '#'
+		default-dark: '#'
 	-
 		id: h5-color
 		title: Heading 5 color
 		description: Defines the color of heading 5
-		type: variable-color
+		type: variable-themed-color
 		opacity: false
 		format: rgb
-		default: '#'
+		default-light: '#'
+		default-dark: '#'
 	-
 		id: h6-color
 		title: Heading 6 color
 		description: Defines the color of heading 6
-		type: variable-color
+		type: variable-themed-color
 		opacity: false
 		format: rgb
-		default: '#'
+		default-light: '#'
+		default-dark: '#'
 */
