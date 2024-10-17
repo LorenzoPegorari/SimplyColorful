@@ -8,49 +8,49 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	background-color: rgba(var(--color-blue-rgb), 0.1);
+	background-color: color-mix(in srgb, var(--h1-color) var(--h-trasparency), transparent);
 }
 
 h2 {
-	background-color: rgba(var(--color-purple-rgb), 0.1);
+	background-color: color-mix(in srgb, var(--h2-color) var(--h-trasparency), transparent);
 }
 
 h3 {
-	background-color: rgba(var(--color-pink-rgb), 0.1);
+	background-color: color-mix(in srgb, var(--h3-color) var(--h-trasparency), transparent);
 }
 
 h4 {
-	background-color: rgba(var(--color-red-rgb), 0.1);
+	background-color: color-mix(in srgb, var(--h4-color) var(--h-trasparency), transparent);
 }
 
 h5 {
-	background-color: rgba(var(--color-orange-rgb), 0.1);
+	background-color: color-mix(in srgb, var(--h5-color) var(--h-trasparency), transparent);
 }
 
 h6 {
-	background-color: rgba(var(--color-yellow-rgb), 0.1);
+	background-color: color-mix(in srgb, var(--h6-color) var(--h-trasparency), transparent);
 }
 
 h1:hover {
-	background-color: rgba(var(--color-blue-rgb), 0.3);
+	background-color: color-mix(in srgb, var(--h1-color) var(--h-hover-trasparency), transparent);
 }
 
 h2:hover {
-	background-color: rgba(var(--color-purple-rgb), 0.3);
+	background-color: color-mix(in srgb, var(--h2-color) var(--h-hover-trasparency), transparent);
 }
 
 h3:hover {
-	background-color: rgba(var(--color-pink-rgb), 0.3);
+	background-color: color-mix(in srgb, var(--h3-color) var(--h-hover-trasparency), transparent);
 }
 
 h4:hover {
-	background-color: rgba(var(--color-red-rgb), 0.3);
+	background-color: color-mix(in srgb, var(--h4-color) var(--h-hover-trasparency), transparent);
 }
 
 h5:hover {
-	background-color: rgba(var(--color-orange-rgb), 0.3);
+	background-color: color-mix(in srgb, var(--h5-color) var(--h-hover-trasparency), transparent);
 }
 
 h6:hover {
-	background-color: rgba(var(--color-yellow-rgb), 0.3);
+	background-color: color-mix(in srgb, var(--h6-color) var(--h-hover-trasparency), transparent);
 }
