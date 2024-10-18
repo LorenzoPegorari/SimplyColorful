@@ -120,6 +120,8 @@ body {
 	/* Table */
 	--table-background: var(--background-secondary);
 	--table-border-color: var(--background-modifier-border);
+	--dataview-table-tbody-size: calc(var(--font-text-size) * 0.82);
+	--dataview-table-thead-size: calc(var(--font-text-size) * 0.88);
 	/* Tag */
 	--tag-color: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.925);
 	--tag-color-hover: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.95);
@@ -168,7 +170,9 @@ body {
 	--color-base-50: #aaaaaa;
 	--color-base-60: #707070;
 	--color-base-70: #5c5c5c;
-	--color-base-100: #222222; }
+	--color-base-100: #222222;
+	--dataview-table-even-bg-color: var(--color-base-10);
+	--dataview-table-odd-bg-color: var(--color-base-05); }
 
 .theme-dark {
 	/* Base colors */
@@ -183,7 +187,10 @@ body {
 	--color-base-50: #666666;
 	--color-base-60: #999999;
 	--color-base-70: #b3b3b3;
-	--color-base-100: #dadada; }
+	--color-base-100: #dadada;
+	--dataview-table-even-bg-color: var(--color-base-10);
+	--dataview-table-odd-bg-color: var(--color-base-05);
+	--dataview-table-row-hover: var(--color-accent-hsl); }
 
 .theme-light, .theme-dark {
 	/* FOUNDATIONS */
@@ -311,6 +318,36 @@ h6:hover {
 	border-bottom: none;
 	border-radius: 0 var(--callout-radius) var(--callout-radius) 0; }
 
+/* Tables */
+.cm-html-embed thead > tr > th,
+.markdown-rendered thead > tr > th {
+	color: var(--bold-color); }
+
+/* Alternating columns background */
+.cm-html-embed thead > tr > th,
+.markdown-rendered thead > tr > th,
+.cm-html-embed tbody > tr > td,
+.markdown-rendered tbody > tr > td {
+	background-color: var(--dataview-table-odd-bg-color); }
+
+.cm-html-embed thead > tr:hover > th,
+.markdown-rendered thead > tr:hover > th,
+.cm-html-embed tbody > tr:hover > td,
+.markdown-rendered tbody > tr:hover > td {
+	background-color: color-mix(in srgb, hsl(var(--accent-h), var(--accent-s), var(--accent-l)) 15%, var(--dataview-table-odd-bg-color)); }
+
+.cm-html-embed thead tr > th:nth-child(2n+2),
+.markdown-rendered thead tr > th:nth-child(2n+2),
+.cm-html-embed tbody tr > td:nth-child(2n+2),
+.markdown-rendered tbody tr > td:nth-child(2n+2) {
+	background-color: var(--dataview-table-even-bg-color); }
+
+.cm-html-embed thead tr:hover > th:nth-child(2n+2),
+.markdown-rendered thead tr:hover > th:nth-child(2n+2),
+.cm-html-embed tbody tr:hover > td:nth-child(2n+2),
+.markdown-rendered tbody tr:hover > td:nth-child(2n+2) {
+	background-color: color-mix(in srgb, hsl(var(--accent-h), var(--accent-s), var(--accent-l)) 15%, var(--dataview-table-even-bg-color)); }
+
 /* Plugins */
 /* For plugin "Advanced Tables" */
 span.advanced-tables-row-label {
@@ -332,19 +369,22 @@ div.reset-button.svelte-1vwr9dd.svelte-1vwr9dd {
 .block-language-dataview.node-insert-event {
 	max-height: 750px; }
 
-.dataview.table-view-table .table-view-thead {
-	font-size: var(--font-smaller); }
+.table-view-table > thead {
+	font-size: var(--dataview-table-thead-size); }
 
 .dataview.table-view-table .table-view-thead th.table-view-th {
 	text-align: center;
-	margin: auto;
-	padding: var(--font-smaller) 0; }
+	padding: 10px 5px; }
 
-.dataview.table-view-table .table-view-tbody {
-	font-size: var(--font-smallest); }
-
-.dataview.table-view-table .table-view-tbody td {
+.table-view-table > tbody > tr > td {
+	font-size: var(--dataview-table-tbody-size);
 	text-align: center; }
+
+.dataview.small-text {
+	color: var(--bold-color); }
+
+.table-view-table > thead > tr > th {
+	border-bottom: 2px solid var(--text-faint); }
 
 .themed-color-wrapper .pickr-reset button {
 	background-color: var(--color-base-20);
