@@ -1,5 +1,5 @@
 /*
-Simply COlorful Theme compiler for Obsidian
+Simply Colorful Theme compiler for Obsidian
 
 MIT License
 Copyright (c) 2024 Lorenzo Pegorari (@LorenzoPegorari)
@@ -32,11 +32,12 @@ module.exports = function(grunt) {
 				indentType: 'tab',
 				indentWidth: 1,
 				linefeed: 'crlf',
-				outputStyle: 'extended'
+				outputStyle: 'compressed'
 			},
 			dist: {
 				files: {
-					'src/css/main.css': 'src/sass/index.scss'}
+					'src/css/main.css': 'src/sass/index.scss'
+				}
 			}
 		},
 
@@ -44,7 +45,7 @@ module.exports = function(grunt) {
 		concat_css: {
 			dist: {
 				files: {
-					'theme.css': ['src/css/license.css', 'src/css/main.css']
+					'theme.css': ['src/css/license.css', 'src/css/main.css', 'src/css/style-settings-plugin.css']
 				}
 			}
 		},
