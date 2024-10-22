@@ -49,10 +49,10 @@
 	--color-base-00: #191919;
 	--color-base-05: #1e1e1e;
 	--color-base-10: #222222;
-	--color-base-20: #242424;
-	--color-base-25: #282828;
-	--color-base-30: #343434;
-	--color-base-35: #3d3d3d;
+	--color-base-20: #313131;
+	--color-base-25: #363636;
+	--color-base-30: #414141;
+	--color-base-35: #4c4c4c;
 	--color-base-40: #555555;
 	--color-base-50: #666666;
 	--color-base-60: #999999;
@@ -111,6 +111,8 @@
 	--h4-color: var(--color-red);
 	--h5-color: var(--color-orange);
 	--h6-color: var(--color-yellow);
+	--h-trasparency: 10%;  // non standard variable
+	--h-hover-trasparency: 30%;  // non standard variable
 	
 	/* Link */
 	--link-external-color: #0071e3;
