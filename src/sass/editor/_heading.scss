@@ -3,54 +3,58 @@
 h1, h2, h3, h4, h5, h6 {
 	margin: 0 -8px;
 	padding: 4px 8px;
-	border-radius: 4px;
-	transition: all .75s ease;
+	border-radius: var(--radius-s);
+	transition: background-color .75s ease;
 }
 
 h1 {
 	background-color: color-mix(in srgb, var(--h1-color) var(--h-trasparency), transparent);
+
+	&:hover {
+		background-color: color-mix(in srgb, var(--h1-color) var(--h-hover-trasparency), transparent);
+	}
 }
 
 h2 {
 	background-color: color-mix(in srgb, var(--h2-color) var(--h-trasparency), transparent);
+
+	&:hover {
+		background-color: color-mix(in srgb, var(--h2-color) var(--h-hover-trasparency), transparent);
+	}
 }
 
 h3 {
 	background-color: color-mix(in srgb, var(--h3-color) var(--h-trasparency), transparent);
+
+	&:hover {
+		background-color: color-mix(in srgb, var(--h3-color) var(--h-hover-trasparency), transparent);
+	}
 }
 
 h4 {
 	background-color: color-mix(in srgb, var(--h4-color) var(--h-trasparency), transparent);
+
+	&:hover {
+		background-color: color-mix(in srgb, var(--h4-color) var(--h-hover-trasparency), transparent);
+	}
 }
 
 h5 {
 	background-color: color-mix(in srgb, var(--h5-color) var(--h-trasparency), transparent);
+
+	&:hover {
+		background-color: color-mix(in srgb, var(--h5-color) var(--h-hover-trasparency), transparent);
+	}
 }
 
 h6 {
 	background-color: color-mix(in srgb, var(--h6-color) var(--h-trasparency), transparent);
+
+	&:hover {
+		background-color: color-mix(in srgb, var(--h6-color) var(--h-hover-trasparency), transparent);
+	}
 }
 
-h1:hover {
-	background-color: color-mix(in srgb, var(--h1-color) var(--h-hover-trasparency), transparent);
-}
-
-h2:hover {
-	background-color: color-mix(in srgb, var(--h2-color) var(--h-hover-trasparency), transparent);
-}
-
-h3:hover {
-	background-color: color-mix(in srgb, var(--h3-color) var(--h-hover-trasparency), transparent);
-}
-
-h4:hover {
-	background-color: color-mix(in srgb, var(--h4-color) var(--h-hover-trasparency), transparent);
-}
-
-h5:hover {
-	background-color: color-mix(in srgb, var(--h5-color) var(--h-hover-trasparency), transparent);
-}
-
-h6:hover {
-	background-color: color-mix(in srgb, var(--h6-color) var(--h-hover-trasparency), transparent);
+.markdown-preview-view .heading-collapse-indicator {
+	margin-inline-start: -30px;
 }
