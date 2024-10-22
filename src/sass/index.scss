@@ -12,11 +12,12 @@
 @import 'window/graph';
 
 /* Editor */
-@import 'editor/headers';
+@import 'editor/heading';
 @import 'editor/blockquotes';
 @import 'editor/callouts';
 
 /* Plugins */
-@import 'plugins/dataview';
 @import 'plugins/advanced-tables';
 @import 'plugins/calendar';
+@import 'plugins/dataview';
+@import 'plugins/style-settings';
