@@ -8,6 +8,7 @@ This theme was created for the following reasons:
 3. to give the user a visually pleasing note-taking experience by making a strong use of the chosen personalized *accent color*.
 ## Index
 - [Images](#images)
+- [Features](#features)
 - [Installation](#installation)
 - [Feedback](#feedback)
 - [Credits](#credits)
@@ -18,6 +19,14 @@ This theme was created for the following reasons:
 ![](/imgs/light.png)
 ### Dark mode example:
 ![](/imgs/dark.png)
+# Features
+- Support for both light and dark mode
+- Support for all window frame style (hidden, Obsidian frame, native frame)
+- Support for both stacked tabs and sliding panes
+- Colorful and animated headings
+- Support for core plugins
+- Simple support for popular community plugins (Excalidraw, Dataview, Calendar, Advanced Tables, etc.)
+- Support for [Style Settings plugin](https://github.com/mgmeyers/obsidian-style-settings)
 # Installation
 This theme was reviewed by the [Obisidan team](https://github.com/obsidianmd), and was inserted in the [official list of themes](https://github.com/obsidianmd/obsidian-releases/blob/master/community-css-themes.json) after approval on [pull request #4403](https://github.com/obsidianmd/obsidian-releases/pull/4403).
 
@@ -39,4 +48,4 @@ This theme is licensed under the *MIT License*.
 # Disclaimer
 This theme is provided as is, and is designed for my personal use of Obsidian on Windows 10 and Windows 11. As such, it is not thoroughly tested across all operating systems and use cases.
 
-This theme modifies significant parts of the obsidian interface, so it may break with future updates. It may also incompatible with other bits of custom CSS snippets you have.
+This theme modifies some parts of the obsidian interface, so it may break with future updates. It may also be incompatible with other bits of custom CSS snippets you have.
