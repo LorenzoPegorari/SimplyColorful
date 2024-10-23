@@ -42,6 +42,9 @@
 	--color-base-60: #707070;
 	--color-base-70: #5c5c5c;
 	--color-base-100: #222222;
+	
+	--dataview-table-even-bg-color: var(--color-base-10);  // Non standard variable
+	--dataview-table-odd-bg-color: var(--color-base-05);  // Non standard variable
 }
 
 .theme-dark {
@@ -58,6 +61,10 @@
 	--color-base-60: #999999;
 	--color-base-70: #b3b3b3;
 	--color-base-100: #dadada;
+	
+	--dataview-table-even-bg-color: var(--color-base-10);  // Non standard variable
+	--dataview-table-odd-bg-color: var(--color-base-05);  // Non standard variable
+	--dataview-table-row-hover: var(--color-accent-hsl);  // Non standard variable
 }
 
 .theme-light, .theme-dark {
