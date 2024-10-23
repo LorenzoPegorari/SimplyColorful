@@ -4,20 +4,24 @@
 	max-height: 750px;
 }
 
-.dataview.table-view-table .table-view-thead {
-	font-size: var(--font-smaller);
+.table-view-table > thead {
+	font-size: var(--dataview-table-thead-size);
 }
 
 .dataview.table-view-table .table-view-thead th.table-view-th {
 	text-align: center;
-	margin: auto;
-	padding: var(--font-smaller) 0;
+	padding: 10px 5px;
 }
 
-.dataview.table-view-table .table-view-tbody {
-	font-size: var(--font-smallest);
-}
-
-.dataview.table-view-table .table-view-tbody td {
+.table-view-table > tbody > tr > td {
+	font-size: var(--dataview-table-tbody-size);
 	text-align: center;
+}
+
+.dataview.small-text {
+	color: var(--bold-color);
+}
+
+.table-view-table > thead > tr > th {
+	border-bottom: 2px solid var(--text-faint);
 }

@@ -552,6 +552,8 @@ body {
 	// --table-header-color: var(--text-normal);
 	// --table-line-height: var(--line-height-tight);
 	// --table-text-size: var(--font-text-size);
+	--dataview-table-tbody-size: calc(var(--font-text-size) * 0.82);  // Non standard variable
+	--dataview-table-thead-size: calc(var(--font-text-size) * 0.88);  // Non standard variable
 	// --table-text-color: inherit;
 	// --table-column-min-width: 6ch;
 	// --table-column-max-width: none;
