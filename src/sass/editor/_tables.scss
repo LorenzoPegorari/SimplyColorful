@@ -1,11 +1,6 @@
 /* Tables */
 
-.cm-html-embed thead > tr > th,
-.markdown-rendered thead > tr > th {
-	color: var(--bold-color);
-}
-
-/* Alternating columns background */
+/* Alternating columns background (ALSO WORKS FOR DATAVIEW) */
 .cm-html-embed thead > tr > th,
 .markdown-rendered thead > tr > th,
 .cm-html-embed tbody > tr > td,
@@ -18,24 +13,26 @@
 .cm-html-embed tbody > tr:hover > td,
 .markdown-rendered tbody > tr:hover > td {
 	background-color: color-mix(
-		in srgb, hsl(var(--accent-h), var(--accent-s), var(--accent-l)) 15%,
+		in srgb,
+		hsl(var(--accent-h), var(--accent-s), var(--accent-l)) 15%,
 		var(--dataview-table-odd-bg-color)
 	);
 }
 
-.cm-html-embed thead tr > th:nth-child(2n+2),
-.markdown-rendered thead tr > th:nth-child(2n+2),
-.cm-html-embed tbody tr > td:nth-child(2n+2),
-.markdown-rendered tbody tr > td:nth-child(2n+2) {
+.cm-html-embed thead tr > th:nth-child(even),
+.markdown-rendered thead tr > th:nth-child(even),
+.cm-html-embed tbody tr > td:nth-child(even),
+.markdown-rendered tbody tr > td:nth-child(even) {
 	background-color: var(--dataview-table-even-bg-color);
 }
 
-.cm-html-embed thead tr:hover > th:nth-child(2n+2),
-.markdown-rendered thead tr:hover > th:nth-child(2n+2),
-.cm-html-embed tbody tr:hover > td:nth-child(2n+2),
-.markdown-rendered tbody tr:hover > td:nth-child(2n+2) {
+.cm-html-embed thead tr:hover > th:nth-child(even),
+.markdown-rendered thead tr:hover > th:nth-child(even),
+.cm-html-embed tbody tr:hover > td:nth-child(even),
+.markdown-rendered tbody tr:hover > td:nth-child(even) {
 	background-color: color-mix(
-		in srgb, hsl(var(--accent-h), var(--accent-s), var(--accent-l)) 15%,
+		in srgb,
+		hsl(var(--accent-h), var(--accent-s), var(--accent-l)) 15%,
 		var(--dataview-table-even-bg-color)
 	);
 }

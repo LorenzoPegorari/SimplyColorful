@@ -1,11 +1,11 @@
 /* For plugin "Advanced Tables" */
 
 span.advanced-tables-row-label {
-	color: var(--text-muted);
-	font-weight: 400;
 	font-size: var(--font-ui-small);
+	font-weight: 400;
+	color: var(--text-muted);
 }
 
-.widget-icon:hover {
+[data-type="advanced-tables-toolbar"] .nav-buttons-container .nav-action-button:hover .widget-icon {
 	fill: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
 }
