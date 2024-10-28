@@ -14,6 +14,14 @@
 	text-align: center;
 }
 
+.dataview.table-view-table .table-view-tbody tr {
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.dataview.table-view-table .table-view-tbody tr:last-child {
+	border-bottom: none;
+}
+
 .dataview.table-view-table .table-view-tbody td {
 	font-size: var(--dataview-table-tbody-size);
 	text-align: center;
