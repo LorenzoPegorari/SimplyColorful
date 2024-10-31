@@ -19,6 +19,8 @@ This theme was created for the following reasons:
 ![](/imgs/light.png)
 ### Dark mode example:
 ![](/imgs/dark.png)
+#### Dataview tables support example:
+![](/imgs/dark-dataview-table.png)
 # Features
 - Support for both light and dark mode
 - Support for all window frame style (hidden, Obsidian frame, native frame)
