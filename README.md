@@ -1,6 +1,6 @@
 ![](/imgs/header.png)
 
-**Simply colorful** is an [Obsidian](https://obsidian.md/) theme for desktop created by [LorenzoPegorari](https://github.com/LorenzoPegorari).
+**Simply Colorful** is an [Obsidian](https://obsidian.md/) theme for desktop created by [LorenzoPegorari](https://github.com/LorenzoPegorari).
 
 This theme was created for the following reasons:
 1. to make the most prominent parts of the notes more easily identifiable, making *skimming* faster,
@@ -25,7 +25,7 @@ This theme was created for the following reasons:
 - Support for both stacked tabs and sliding panes
 - Colorful and animated headings
 - Support for core plugins
-- Simple support for popular community plugins (Excalidraw, Dataview, Calendar, Advanced Tables, etc.)
+- Support for popular community plugins (Excalidraw, Dataview, Calendar, Advanced Tables, etc.)
 - Support for [Style Settings plugin](https://github.com/mgmeyers/obsidian-style-settings)
 # Installation
 This theme was reviewed by the [Obisidan team](https://github.com/obsidianmd), and was inserted in the [official list of themes](https://github.com/obsidianmd/obsidian-releases/blob/master/community-css-themes.json) after approval on [pull request #4403](https://github.com/obsidianmd/obsidian-releases/pull/4403).
@@ -34,7 +34,7 @@ This means that it can be easily installed by following the instruction below:
 - open Obsidian `Settings`,
 - open the `Appearance` tab in the `Options` sidemenu,
 - click `Manage` next to `Themes`,
-- search for "**Simply colorful**" and click `Install and use`.
+- search for "**Simply Colorful**" and click `Install and use`.
 # Feedback
 If you encounter any issues or have any suggestions, feel free to contact me on the [Obsidian discord](https://discord.com/invite/obsidianmd) (@UberLias) or on the [main discussion in the Obsidian forum](https://forum.obsidian.md/t/theme-simply-colorful/89992).
 
