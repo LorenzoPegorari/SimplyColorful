@@ -5,13 +5,10 @@
 }
 
 .dataview.table-view-table .table-view-thead .table-view-th {
-	border-bottom: 2px solid var(--text-faint);
+	border: var(--table-border-width) solid var(--table-border-color);
+	border-bottom: calc(var(--table-border-width) * 2) solid var(--table-border-color);
 	padding: 10px 5px;
 	text-align: center;
-}
-
-.dataview.table-view-table .table-view-tbody tr {
-	border-bottom: 1px solid var(--background-modifier-border);
 }
 
 .dataview.table-view-table .table-view-tbody tr:last-child {
@@ -19,6 +16,7 @@
 }
 
 .dataview.table-view-table .table-view-tbody td {
+	border: var(--table-border-width) solid var(--table-border-color);
 	font-size: var(--dataview-table-tbody-size);
 	text-align: center;
 }
