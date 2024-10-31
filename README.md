@@ -41,7 +41,7 @@ Otherwise it can be installed by following the instruction below:
 - open the `Appearance` tab in the `Options` sidemenu,
 - click the *folder icon* next to `Themes`,
 - create in the opened folder a new folder called *Simply Colorful*,
-- go in the [GitHub Releases page](https://github.com/LorenzoPegorari/SimplyColorful/releases) and download from the latest release the `theme.css` and `manifest.json` files,
+- go in the [GitHub Releases page](https://github.com/LorenzoPegorari/SimplyColorful/releases/latest) and download from the latest release the `theme.css` and `manifest.json` files,
 - put these 2 files in the created *Simply Colorful* folder,
 - reload Obsidian,
 - open Obsidian `Settings`,
