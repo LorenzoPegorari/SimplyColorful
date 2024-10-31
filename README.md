@@ -35,6 +35,18 @@ This means that it can be easily installed by following the instruction below:
 - open the `Appearance` tab in the `Options` sidemenu,
 - click `Manage` next to `Themes`,
 - search for "**Simply Colorful**" and click `Install and use`.
+
+Otherwise it can be installed by following the instruction below:
+- open Obsidian `Settings`,
+- open the `Appearance` tab in the `Options` sidemenu,
+- click the *folder icon* next to `Themes`,
+- create in the opened folder a new folder called *Simply Colorful*,
+- go in the [GitHub Releases page](https://github.com/LorenzoPegorari/SimplyColorful/releases) and download from the latest release the `theme.css` and `manifest.json` files,
+- put these 2 files in the created *Simply Colorful* folder,
+- reload Obsidian,
+- open Obsidian `Settings`,
+- open the `Appearance` tab in the `Options` sidemenu,
+- select *Simply Colorful* in the *drop-down menu* next to `Themes`.
 # Feedback
 If you encounter any issues or have any suggestions, feel free to contact me on the [Obsidian discord](https://discord.com/invite/obsidianmd) (@UberLias) or on the [main discussion in the Obsidian forum](https://forum.obsidian.md/t/theme-simply-colorful/89992).
 
