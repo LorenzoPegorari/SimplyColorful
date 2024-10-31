@@ -1,34 +1,25 @@
 /* Theme */
 
-.theme-light, .theme-dark {
-	/* Extended colors */
-	--color-red-rgb: 233, 49, 71;
-	--color-orange-rgb: 236, 117, 0;
-	--color-yellow-rgb: 224, 172, 0;
-	--color-green-rgb: 81, 214, 120;
-	--color-cyan-rgb: 81, 174, 214;
-	--color-blue-rgb: 88, 81, 214;
-	--color-purple-rgb: 120, 82, 238;
-	--color-pink-rgb: 213, 57, 132;
-
-	--color-red: #e93131;
-	--color-orange: #ec6a00;
-	--color-yellow: #d4bb00;
-	--color-green: #48c759;
-	--color-cyan: #3eb9c4;
-	--color-blue: #2471d4;
-	--color-purple: #7852ee;
-	--color-pink: #d5399c;
-
-	/* Obsidian color (non standard variables) */
-	--color-obsidian-h: 258;
-	--color-obsidian-s: 88%;
-	--color-obsidian-l: 66%;
-	--color-obsidian-rgb: 138, 92, 245;
-	--color-obsidian: #8a5cf5;
-}
-
 .theme-light {
+	/* Extended colors */
+	--color-red-rgb: 224, 48, 53;
+	--color-orange-rgb: 224, 131, 48;
+	--color-yellow-rgb: 206, 201, 42;
+	--color-green-rgb: 47, 206, 42;
+	--color-cyan-rgb: 42, 206, 201;
+	--color-blue-rgb: 36, 113, 212;
+	--color-purple-rgb: 131, 48, 224;
+	--color-pink-rgb: 224, 48, 141;
+
+	--color-red: #e03035;
+	--color-orange: #e08330;
+	--color-yellow: #cec92a;
+	--color-green: #2fce2a;
+	--color-cyan: #2acec9;
+	--color-blue: #2471d4;
+	--color-purple: #8330e0;
+	--color-pink: #e0308d;
+	
 	/* Base colors */
 	--color-base-00: #ffffff;
 	--color-base-05: #fcfcfc;
@@ -42,6 +33,10 @@
 	--color-base-60: #707070;
 	--color-base-70: #5c5c5c;
 	--color-base-100: #222222;
+
+	/* Text colors */
+	--text-accent: #7e55dd;
+	--text-accent-hover: rgba(126, 85, 221, 0.825);
 	
 	--dataview-table-even-bg-color: var(--color-base-10);  // Non standard variable
 	--dataview-table-odd-bg-color: var(--color-base-05);  // Non standard variable
@@ -49,6 +44,25 @@
 }
 
 .theme-dark {
+	/* Extended colors */
+	--color-red-rgb: 224, 48, 53;
+	--color-orange-rgb: 224, 131, 48;
+	--color-yellow-rgb: 206, 201, 42;
+	--color-green-rgb: 47, 206, 42;
+	--color-cyan-rgb: 42, 206, 201;
+	--color-blue-rgb: 36, 113, 212;
+	--color-purple-rgb: 131, 48, 224;
+	--color-pink-rgb: 224, 48, 141;
+	
+	--color-red: #e03035;
+	--color-orange: #e08330;
+	--color-yellow: #cec92a;
+	--color-green: #32ce2d;
+	--color-cyan: #2dcec9;
+	--color-blue: #2471d4;
+	--color-purple: #8330e0;
+	--color-pink: #e0308d;
+
 	/* Base colors */
 	--color-base-00: #191919;
 	--color-base-05: #1e1e1e;
@@ -62,6 +76,10 @@
 	--color-base-60: #999999;
 	--color-base-70: #b3b3b3;
 	--color-base-100: #dadada;
+
+	/* Text colors */
+	--text-accent: #8a5cf5;
+	--text-accent-hover: rgba(138, 92, 245, 0.825);
 	
 	--dataview-table-even-bg-color: var(--color-base-10);  // Non standard variable
 	--dataview-table-odd-bg-color: var(--color-base-05);  // Non standard variable
@@ -107,8 +125,6 @@
 	// --text-selection: hsla(var(--color-accent-hsl), 0.2);
 	--text-highlight-bg-rgb: 236, 235, 0;
 	--text-highlight-bg: rgba(var(--text-highlight-bg-rgb), 0.4);
-	--text-accent: var(--color-obsidian);
-	--text-accent-hover: rgba(var(--color-obsidian-rgb), 0.825);
 	// --caret-color: var(--text-normal);
 	
 	/* EDITOR */
