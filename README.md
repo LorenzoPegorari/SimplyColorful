@@ -25,7 +25,7 @@ This theme was created for the following reasons:
 - Support for both light and dark mode
 - Support for all window frame style (hidden, Obsidian frame, native frame)
 - Support for both stacked tabs and sliding panes
-- Colorful and animated headings
+- Colorful headings in both *Live Preview mode* and *Reading mode* (with a sweet animation while in *Reading mode*)
 - Support for core plugins
 - Support for popular community plugins (Excalidraw, Dataview, Calendar, Advanced Tables, etc.)
 - Support for [Style Settings plugin](https://github.com/mgmeyers/obsidian-style-settings)
