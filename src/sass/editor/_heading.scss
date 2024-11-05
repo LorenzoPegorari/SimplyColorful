@@ -1,5 +1,6 @@
 /* Headers */
 
+/* Reading view */
 h1, h2, h3, h4, h5, h6 {
 	margin: 0 -8px;
 	border-radius: var(--radius-s);
@@ -57,4 +58,76 @@ h6 {
 
 .markdown-preview-view .heading-collapse-indicator {
 	margin-inline-start: -30px;
+}
+
+/* Live preview */
+.cm-s-obsidian.is-live-preview .cm-line.HyperMD-header {
+	padding-top: calc((var(--p-spacing) * 12) / 16);
+	padding-bottom: calc((var(--p-spacing) * 4) / 16);
+}
+
+.cm-s-obsidian.is-live-preview .HyperMD-header-1 {
+	background: var(--h1-color);
+	background: linear-gradient(
+		180deg,
+		transparent 0px,
+		transparent calc((var(--p-spacing) * 12) / 16),
+		color-mix(in srgb, var(--h1-color) var(--h-trasparency), transparent) calc((var(--p-spacing) * 12) / 16),
+		color-mix(in srgb, var(--h1-color) var(--h-trasparency), transparent) 100%
+	);
+}
+
+.cm-s-obsidian.is-live-preview .HyperMD-header-2 {
+	background: var(--h2-color);
+	background: linear-gradient(
+		180deg,
+		transparent 0px,
+		transparent calc((var(--p-spacing) * 12) / 16),
+		color-mix(in srgb, var(--h2-color) var(--h-trasparency), transparent) calc((var(--p-spacing) * 12) / 16),
+		color-mix(in srgb, var(--h2-color) var(--h-trasparency), transparent) 100%
+	);
+}
+
+.cm-s-obsidian.is-live-preview .HyperMD-header-3 {
+	background: var(--h3-color);
+	background: linear-gradient(
+		180deg,
+		transparent 0px,
+		transparent calc((var(--p-spacing) * 12) / 16),
+		color-mix(in srgb, var(--h3-color) var(--h-trasparency), transparent) calc((var(--p-spacing) * 12) / 16),
+		color-mix(in srgb, var(--h3-color) var(--h-trasparency), transparent) 100%
+	);
+}
+
+.cm-s-obsidian.is-live-preview .HyperMD-header-4 {
+	background: var(--h4-color);
+	background: linear-gradient(
+		180deg,
+		transparent 0px,
+		transparent calc((var(--p-spacing) * 12) / 16),
+		color-mix(in srgb, var(--h4-color) var(--h-trasparency), transparent) calc((var(--p-spacing) * 12) / 16),
+		color-mix(in srgb, var(--h4-color) var(--h-trasparency), transparent) 100%
+	);
+}
+
+.cm-s-obsidian.is-live-preview .HyperMD-header-5 {
+	background: var(--h5-color);
+	background: linear-gradient(
+		180deg,
+		transparent 0px,
+		transparent calc((var(--p-spacing) * 12) / 16),
+		color-mix(in srgb, var(--h5-color) var(--h-trasparency), transparent) calc((var(--p-spacing) * 12) / 16),
+		color-mix(in srgb, var(--h5-color) var(--h-trasparency), transparent) 100%
+	);
+}
+
+.cm-s-obsidian.is-live-preview .HyperMD-header-6 {
+	background: var(--h6-color);
+	background: linear-gradient(
+		180deg,
+		transparent 0px,
+		transparent calc((var(--p-spacing) * 12) / 16),
+		color-mix(in srgb, var(--h6-color) var(--h-trasparency), transparent) calc((var(--p-spacing) * 12) / 16),
+		color-mix(in srgb, var(--h6-color) var(--h-trasparency), transparent) 100%
+	);
 }
