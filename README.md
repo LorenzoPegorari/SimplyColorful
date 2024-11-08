@@ -30,7 +30,7 @@ This theme was created for the following reasons:
 - Support for popular community plugins (Excalidraw, Dataview, Calendar, Advanced Tables, etc.)
 - Support for [Style Settings plugin](https://github.com/mgmeyers/obsidian-style-settings)
 # Installation
-This theme was reviewed by the [Obisidan team](https://github.com/obsidianmd), and was inserted in the [official list of themes](https://github.com/obsidianmd/obsidian-releases/blob/master/community-css-themes.json) after approval on [pull request #4403](https://github.com/obsidianmd/obsidian-releases/pull/4403).
+This theme was reviewed by the [Obsidian team](https://github.com/obsidianmd), and was inserted in the [official list of themes](https://github.com/obsidianmd/obsidian-releases/blob/master/community-css-themes.json) after approval on [pull request #4403](https://github.com/obsidianmd/obsidian-releases/pull/4403).
 
 This means that it can be easily installed by following the instruction below:
 - open Obsidian `Settings`,
