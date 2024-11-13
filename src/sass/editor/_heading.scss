@@ -61,9 +61,15 @@ h6 {
 }
 
 /* Live preview */
+body {
+	--live-heading-bg-top: calc((var(--p-spacing) * 9) / 16);
+	--live-heading-bg-bottom: calc((var(--p-spacing) * 7) / 16);
+	--live-heading-padding: calc(var(--live-heading-bg-top) * 1.5);
+}
+
 .cm-s-obsidian.is-live-preview .cm-line.HyperMD-header {
-	padding-top: calc((var(--p-spacing) * 12) / 16);
-	padding-bottom: calc((var(--p-spacing) * 4) / 16);
+	padding-top: var(--live-heading-padding);
+	padding-bottom: var(--live-heading-padding);
 }
 
 .cm-s-obsidian.is-live-preview .HyperMD-header-1 {
@@ -71,9 +77,11 @@ h6 {
 	background: linear-gradient(
 		180deg,
 		transparent 0px,
-		transparent calc((var(--p-spacing) * 12) / 16),
-		color-mix(in srgb, var(--h1-color) var(--h-trasparency), transparent) calc((var(--p-spacing) * 12) / 16),
-		color-mix(in srgb, var(--h1-color) var(--h-trasparency), transparent) 100%
+		transparent var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h1-color) var(--h-trasparency), transparent) var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h1-color) var(--h-trasparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
+		transparent calc(100% - var(--live-heading-bg-bottom)),
+		transparent 100%,
 	);
 }
 
@@ -82,9 +90,11 @@ h6 {
 	background: linear-gradient(
 		180deg,
 		transparent 0px,
-		transparent calc((var(--p-spacing) * 12) / 16),
-		color-mix(in srgb, var(--h2-color) var(--h-trasparency), transparent) calc((var(--p-spacing) * 12) / 16),
-		color-mix(in srgb, var(--h2-color) var(--h-trasparency), transparent) 100%
+		transparent var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h2-color) var(--h-trasparency), transparent) var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h2-color) var(--h-trasparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
+		transparent calc(100% - var(--live-heading-bg-bottom)),
+		transparent 100%,
 	);
 }
 
@@ -93,9 +103,11 @@ h6 {
 	background: linear-gradient(
 		180deg,
 		transparent 0px,
-		transparent calc((var(--p-spacing) * 12) / 16),
-		color-mix(in srgb, var(--h3-color) var(--h-trasparency), transparent) calc((var(--p-spacing) * 12) / 16),
-		color-mix(in srgb, var(--h3-color) var(--h-trasparency), transparent) 100%
+		transparent var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h3-color) var(--h-trasparency), transparent) var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h3-color) var(--h-trasparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
+		transparent calc(100% - var(--live-heading-bg-bottom)),
+		transparent 100%,
 	);
 }
 
@@ -104,9 +116,11 @@ h6 {
 	background: linear-gradient(
 		180deg,
 		transparent 0px,
-		transparent calc((var(--p-spacing) * 12) / 16),
-		color-mix(in srgb, var(--h4-color) var(--h-trasparency), transparent) calc((var(--p-spacing) * 12) / 16),
-		color-mix(in srgb, var(--h4-color) var(--h-trasparency), transparent) 100%
+		transparent var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h4-color) var(--h-trasparency), transparent) var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h4-color) var(--h-trasparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
+		transparent calc(100% - var(--live-heading-bg-bottom)),
+		transparent 100%,
 	);
 }
 
@@ -115,9 +129,11 @@ h6 {
 	background: linear-gradient(
 		180deg,
 		transparent 0px,
-		transparent calc((var(--p-spacing) * 12) / 16),
-		color-mix(in srgb, var(--h5-color) var(--h-trasparency), transparent) calc((var(--p-spacing) * 12) / 16),
-		color-mix(in srgb, var(--h5-color) var(--h-trasparency), transparent) 100%
+		transparent var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h5-color) var(--h-trasparency), transparent) var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h5-color) var(--h-trasparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
+		transparent calc(100% - var(--live-heading-bg-bottom)),
+		transparent 100%,
 	);
 }
 
@@ -126,8 +142,10 @@ h6 {
 	background: linear-gradient(
 		180deg,
 		transparent 0px,
-		transparent calc((var(--p-spacing) * 12) / 16),
-		color-mix(in srgb, var(--h6-color) var(--h-trasparency), transparent) calc((var(--p-spacing) * 12) / 16),
-		color-mix(in srgb, var(--h6-color) var(--h-trasparency), transparent) 100%
+		transparent var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h6-color) var(--h-trasparency), transparent) var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h6-color) var(--h-trasparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
+		transparent calc(100% - var(--live-heading-bg-bottom)),
+		transparent 100%,
 	);
 }
