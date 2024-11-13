@@ -1,13 +1,34 @@
 /* Nav */
 
+/* Font weight */
 .nav-folder {
 	font-weight: 500;
 }
 
+.nav-file-title, .nav-file:hover, .nav-file-title.is-active {
+	font-weight: 400;
+}
+
+/* Text color */
 .nav-folder.is-being-dragged-over > .nav-folder-title {
 	color: var(--nav-item-color-active);
 }
 
-.nav-file-title, .nav-file:hover, .nav-file-title.is-active {
-	font-weight: 400;
+/* Background color */
+body:not(.is-grabbing) .tree-item-self.is-clickable.nav-file-title, 
+body:not(.is-grabbing) .tree-item-self.is-clickable.nav-folder-title {
+	background: linear-gradient(
+		90deg,
+		transparent 0%,
+		transparent 50%,
+		hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.1) 50%,
+		transparent 100%
+	);
+	background-size: 200%;
+	transition: background-position-x .25s ease-out;
+}
+
+body:not(.is-grabbing) .tree-item-self.is-clickable.nav-file-title:hover, 
+body:not(.is-grabbing) .tree-item-self.is-clickable.nav-folder-title:hover {
+	background-position-x: -100%;
 }
