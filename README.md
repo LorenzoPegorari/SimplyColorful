@@ -19,12 +19,21 @@ This theme was created for the following reasons:
 - [License](#license)
 - [Disclaimer](#disclaimer)
 # Images
-### Light mode example:
-![](/imgs/light.png)
-### Dark mode example:
-![](/imgs/dark.png)
-#### Dataview tables support example:
-![](/imgs/dark-dataview-table.png)
+_Accent color used in examples_: **RGB** = 245, 92, 92; **HSL** = 0, 88%, 66%.
+## Dark theme
+### Note example:
+![Note example in dark mode](imgs/dark.png)
+### Live preview and note outline example:
+![Live preview and note outline example in dark mode](imgs/note-outline/note-outline-dark.png)
+### Dataview table example:
+![Dataview table example in dark mode](imgs/dataview/dataview-table-dark.png)
+## Light theme
+### Note example:
+![Note example in light mode](imgs/light.png)
+### Live preview and note outline example:
+![Live preview and note outline example in light mode](imgs/note-outline/note-outline-light.png)
+### Dataview table example:
+![Dataview table example in light mode](imgs/dataview/dataview-table-light.png)
 # Features
 - Support for both light and dark mode
 - Support for all window frame style (hidden, Obsidian frame, native frame)
