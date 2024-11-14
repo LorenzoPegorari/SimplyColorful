@@ -12,8 +12,8 @@
 	--color-pink-rgb: 224, 48, 141;
 
 	--color-red: #e03035;
-	--color-orange: #e08330;
-	--color-yellow: #cec92a;
+	--color-orange: #d57929;
+	--color-yellow: #b6b11c;
 	--color-green: #0fa50a;
 	--color-cyan: #18ada8;
 	--color-blue: #2471d4;
@@ -21,17 +21,17 @@
 	--color-pink: #e0308d;
 	
 	/* Base colors */
-	--color-base-00: #ffffff;
-	--color-base-05: #fcfcfc;
-	--color-base-10: #f9f9f9;
-	--color-base-20: #f6f6f6;
-	--color-base-25: #e3e3e3;
-	--color-base-30: #e0e0e0;
-	--color-base-35: #d4d4d4;
+	--color-base-00: #f7f7f7;
+	--color-base-05: #f0f0f0;
+	--color-base-10: #e7e7e7;
+	--color-base-20: #e0e0e0;
+	--color-base-25: #dadada;
+	--color-base-30: #d4d4d4;
+	--color-base-35: #c7c7c7;
 	--color-base-40: #bdbdbd;
 	--color-base-50: #aaaaaa;
 	--color-base-60: #707070;
-	--color-base-70: #5c5c5c;
+	--color-base-70: #4f4f4f;
 	--color-base-100: #222222;
 
 	/* Text colors */
@@ -41,6 +41,14 @@
 	--dataview-table-even-bg-color: var(--color-base-10);  // Non standard variable
 	--dataview-table-odd-bg-color: var(--color-base-05);  // Non standard variable
 	--dataview-table-row-hover: var(--color-accent-hsl);  // Non standard variable
+
+	/* Tags background colors */
+	--tag-background: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.125);
+	--tag-background-hover: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.1);
+
+	/* Heading transparency */
+	--h-transparency: 12%;  // non standard variable
+	--h-hover-transparency: 25%;  // non standard variable
 }
 
 .theme-dark {
@@ -84,6 +92,14 @@
 	--dataview-table-even-bg-color: var(--color-base-10);  // Non standard variable
 	--dataview-table-odd-bg-color: var(--color-base-05);  // Non standard variable
 	--dataview-table-row-hover: var(--color-accent-hsl);  // Non standard variable
+
+	/* Tags background colors */
+	--tag-background: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.075);
+	--tag-background-hover: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.05);
+
+	/* Heading transparency */
+	--h-transparency: 7%;  // non standard variable
+	--h-hover-transparency: 20%;  // non standard variable
 }
 
 .theme-light, .theme-dark {
@@ -135,8 +151,6 @@
 	--h4-color: var(--color-red);
 	--h5-color: var(--color-orange);
 	--h6-color: var(--color-yellow);
-	--h-transparency: 10%;  // non standard variable
-	--h-hover-transparency: 25%;  // non standard variable
 	
 	/* Link */
 	--link-external-color: #0071e3;
