@@ -16,84 +16,84 @@
 
 	& .tree-item-inner {
 		color: var(--h1-color);
-		background-color: color-mix(in srgb, var(--h1-color) var(--h-trasparency), transparent);
+		background-color: color-mix(in srgb, var(--h1-color) var(--h-transparency), transparent);
 	}
 	
 	& .tree-item-self:hover .tree-item-inner,
 	& .tree-item-self.is-active .tree-item-inner,
 	& .tree-item-self.is-clickable:hover .tree-item-inner {
 		color: var(--h1-color);
-		background-color: color-mix(in srgb, var(--h1-color) var(--h-hover-trasparency), transparent);
+		background-color: color-mix(in srgb, var(--h1-color) var(--h-hover-transparency), transparent);
 	}
 
 	& .tree-item {
 		
 		& .tree-item-inner {
 			color: var(--h2-color);
-			background-color: color-mix(in srgb, var(--h2-color) var(--h-trasparency), transparent);
+			background-color: color-mix(in srgb, var(--h2-color) var(--h-transparency), transparent);
 		}
 
 		& .tree-item-self:hover .tree-item-inner,
 		& .tree-item-self.is-active .tree-item-inner,
 		& .tree-item-self.is-clickable:hover .tree-item-inner {
 			color: var(--h2-color);
-			background-color: color-mix(in srgb, var(--h2-color) var(--h-hover-trasparency), transparent);
+			background-color: color-mix(in srgb, var(--h2-color) var(--h-hover-transparency), transparent);
 		}
 	
 		& .tree-item {
 			
 			& .tree-item-inner {
 				color: var(--h3-color);
-				background-color: color-mix(in srgb, var(--h3-color) var(--h-trasparency), transparent);
+				background-color: color-mix(in srgb, var(--h3-color) var(--h-transparency), transparent);
 			}
 
 			& .tree-item-self:hover .tree-item-inner,
 			& .tree-item-self.is-active .tree-item-inner,
 			& .tree-item-self.is-clickable:hover .tree-item-inner {
 				color: var(--h3-color);
-				background-color: color-mix(in srgb, var(--h3-color) var(--h-hover-trasparency), transparent);
+				background-color: color-mix(in srgb, var(--h3-color) var(--h-hover-transparency), transparent);
 			}
 		
 			& .tree-item {
 				
 				& .tree-item-inner {
 					color: var(--h4-color);
-					background-color: color-mix(in srgb, var(--h4-color) var(--h-trasparency), transparent);
+					background-color: color-mix(in srgb, var(--h4-color) var(--h-transparency), transparent);
 				}
 
 				& .tree-item-self:hover .tree-item-inner,
 				& .tree-item-self.is-active .tree-item-inner,
 				& .tree-item-self.is-clickable:hover .tree-item-inner {
 					color: var(--h4-color);
-					background-color: color-mix(in srgb, var(--h4-color) var(--h-hover-trasparency), transparent);
+					background-color: color-mix(in srgb, var(--h4-color) var(--h-hover-transparency), transparent);
 				}
 			
 				& .tree-item {
 					
 					& .tree-item-inner {
 						color: var(--h5-color);
-						background-color: color-mix(in srgb, var(--h5-color) var(--h-trasparency), transparent);
+						background-color: color-mix(in srgb, var(--h5-color) var(--h-transparency), transparent);
 					}
 
 					& .tree-item-self:hover .tree-item-inner,
 					& .tree-item-self.is-active .tree-item-inner,
 					& .tree-item-self.is-clickable:hover .tree-item-inner {
 						color: var(--h5-color);
-						background-color: color-mix(in srgb, var(--h5-color) var(--h-hover-trasparency), transparent);
+						background-color: color-mix(in srgb, var(--h5-color) var(--h-hover-transparency), transparent);
 					}
 				
 					& .tree-item {
 						
 						& .tree-item-inner {
 							color: var(--h6-color);
-							background-color: color-mix(in srgb, var(--h6-color) var(--h-trasparency), transparent);
+							background-color: color-mix(in srgb, var(--h6-color) var(--h-transparency), transparent);
 						}
 
 						& .tree-item-self:hover .tree-item-inner,
 						& .tree-item-self.is-active .tree-item-inner,
 						& .tree-item-self.is-clickable:hover .tree-item-inner {
 							color: var(--h6-color);
-							background-color: color-mix(in srgb, var(--h6-color) var(--h-hover-trasparency), transparent);
+							background-color: color-mix(in srgb, var(--h6-color) var(--h-hover-transparency), transparent);
 						}
 					}
 				}

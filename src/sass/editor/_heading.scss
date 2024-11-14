@@ -9,50 +9,50 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	background-color: color-mix(in srgb, var(--h1-color) var(--h-trasparency), transparent);
+	background-color: color-mix(in srgb, var(--h1-color) var(--h-transparency), transparent);
 
 	&:hover {
-		background-color: color-mix(in srgb, var(--h1-color) var(--h-hover-trasparency), transparent);
+		background-color: color-mix(in srgb, var(--h1-color) var(--h-hover-transparency), transparent);
 	}
 }
 
 h2 {
-	background-color: color-mix(in srgb, var(--h2-color) var(--h-trasparency), transparent);
+	background-color: color-mix(in srgb, var(--h2-color) var(--h-transparency), transparent);
 
 	&:hover {
-		background-color: color-mix(in srgb, var(--h2-color) var(--h-hover-trasparency), transparent);
+		background-color: color-mix(in srgb, var(--h2-color) var(--h-hover-transparency), transparent);
 	}
 }
 
 h3 {
-	background-color: color-mix(in srgb, var(--h3-color) var(--h-trasparency), transparent);
+	background-color: color-mix(in srgb, var(--h3-color) var(--h-transparency), transparent);
 
 	&:hover {
-		background-color: color-mix(in srgb, var(--h3-color) var(--h-hover-trasparency), transparent);
+		background-color: color-mix(in srgb, var(--h3-color) var(--h-hover-transparency), transparent);
 	}
 }
 
 h4 {
-	background-color: color-mix(in srgb, var(--h4-color) var(--h-trasparency), transparent);
+	background-color: color-mix(in srgb, var(--h4-color) var(--h-transparency), transparent);
 
 	&:hover {
-		background-color: color-mix(in srgb, var(--h4-color) var(--h-hover-trasparency), transparent);
+		background-color: color-mix(in srgb, var(--h4-color) var(--h-hover-transparency), transparent);
 	}
 }
 
 h5 {
-	background-color: color-mix(in srgb, var(--h5-color) var(--h-trasparency), transparent);
+	background-color: color-mix(in srgb, var(--h5-color) var(--h-transparency), transparent);
 
 	&:hover {
-		background-color: color-mix(in srgb, var(--h5-color) var(--h-hover-trasparency), transparent);
+		background-color: color-mix(in srgb, var(--h5-color) var(--h-hover-transparency), transparent);
 	}
 }
 
 h6 {
-	background-color: color-mix(in srgb, var(--h6-color) var(--h-trasparency), transparent);
+	background-color: color-mix(in srgb, var(--h6-color) var(--h-transparency), transparent);
 
 	&:hover {
-		background-color: color-mix(in srgb, var(--h6-color) var(--h-hover-trasparency), transparent);
+		background-color: color-mix(in srgb, var(--h6-color) var(--h-hover-transparency), transparent);
 	}
 }
 
@@ -78,8 +78,8 @@ body {
 		180deg,
 		transparent 0px,
 		transparent var(--live-heading-bg-top),
-		color-mix(in srgb, var(--h1-color) var(--h-trasparency), transparent) var(--live-heading-bg-top),
-		color-mix(in srgb, var(--h1-color) var(--h-trasparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
+		color-mix(in srgb, var(--h1-color) var(--h-transparency), transparent) var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h1-color) var(--h-transparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
 		transparent calc(100% - var(--live-heading-bg-bottom)),
 		transparent 100%,
 	);
@@ -91,8 +91,8 @@ body {
 		180deg,
 		transparent 0px,
 		transparent var(--live-heading-bg-top),
-		color-mix(in srgb, var(--h2-color) var(--h-trasparency), transparent) var(--live-heading-bg-top),
-		color-mix(in srgb, var(--h2-color) var(--h-trasparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
+		color-mix(in srgb, var(--h2-color) var(--h-transparency), transparent) var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h2-color) var(--h-transparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
 		transparent calc(100% - var(--live-heading-bg-bottom)),
 		transparent 100%,
 	);
@@ -104,8 +104,8 @@ body {
 		180deg,
 		transparent 0px,
 		transparent var(--live-heading-bg-top),
-		color-mix(in srgb, var(--h3-color) var(--h-trasparency), transparent) var(--live-heading-bg-top),
-		color-mix(in srgb, var(--h3-color) var(--h-trasparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
+		color-mix(in srgb, var(--h3-color) var(--h-transparency), transparent) var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h3-color) var(--h-transparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
 		transparent calc(100% - var(--live-heading-bg-bottom)),
 		transparent 100%,
 	);
@@ -117,8 +117,8 @@ body {
 		180deg,
 		transparent 0px,
 		transparent var(--live-heading-bg-top),
-		color-mix(in srgb, var(--h4-color) var(--h-trasparency), transparent) var(--live-heading-bg-top),
-		color-mix(in srgb, var(--h4-color) var(--h-trasparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
+		color-mix(in srgb, var(--h4-color) var(--h-transparency), transparent) var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h4-color) var(--h-transparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
 		transparent calc(100% - var(--live-heading-bg-bottom)),
 		transparent 100%,
 	);
@@ -130,8 +130,8 @@ body {
 		180deg,
 		transparent 0px,
 		transparent var(--live-heading-bg-top),
-		color-mix(in srgb, var(--h5-color) var(--h-trasparency), transparent) var(--live-heading-bg-top),
-		color-mix(in srgb, var(--h5-color) var(--h-trasparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
+		color-mix(in srgb, var(--h5-color) var(--h-transparency), transparent) var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h5-color) var(--h-transparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
 		transparent calc(100% - var(--live-heading-bg-bottom)),
 		transparent 100%,
 	);
@@ -143,8 +143,8 @@ body {
 		180deg,
 		transparent 0px,
 		transparent var(--live-heading-bg-top),
-		color-mix(in srgb, var(--h6-color) var(--h-trasparency), transparent) var(--live-heading-bg-top),
-		color-mix(in srgb, var(--h6-color) var(--h-trasparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
+		color-mix(in srgb, var(--h6-color) var(--h-transparency), transparent) var(--live-heading-bg-top),
+		color-mix(in srgb, var(--h6-color) var(--h-transparency), transparent) calc(100% - var(--live-heading-bg-bottom)),
 		transparent calc(100% - var(--live-heading-bg-bottom)),
 		transparent 100%,
 	);
