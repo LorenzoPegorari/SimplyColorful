@@ -1,0 +1,103 @@
+/* Headline */
+
+.view-content.node-insert-event .tree-item-inner {
+	border-radius: 4px;
+	padding: 2px 4px 3px 4px;
+	font-weight: 500;
+	transition: background-color .75s ease;
+}
+
+.view-content.node-insert-event .tree-item .tree-item-self.is-active, 
+.view-content.node-insert-event .tree-item .tree-item-self.is-clickable:hover {
+	background-color: inherit;
+}
+
+.view-content.node-insert-event .tree-item {
+
+	& .tree-item-inner {
+		color: var(--h1-color);
+		background-color: color-mix(in srgb, var(--h1-color) var(--h-trasparency), transparent);
+	}
+	
+	& .tree-item-self:hover .tree-item-inner,
+	& .tree-item-self.is-active .tree-item-inner,
+	& .tree-item-self.is-clickable:hover .tree-item-inner {
+		color: var(--h1-color);
+		background-color: color-mix(in srgb, var(--h1-color) var(--h-hover-trasparency), transparent);
+	}
+
+	& .tree-item {
+		
+		& .tree-item-inner {
+			color: var(--h2-color);
+			background-color: color-mix(in srgb, var(--h2-color) var(--h-trasparency), transparent);
+		}
+
+		& .tree-item-self:hover .tree-item-inner,
+		& .tree-item-self.is-active .tree-item-inner,
+		& .tree-item-self.is-clickable:hover .tree-item-inner {
+			color: var(--h2-color);
+			background-color: color-mix(in srgb, var(--h2-color) var(--h-hover-trasparency), transparent);
+		}
+	
+		& .tree-item {
+			
+			& .tree-item-inner {
+				color: var(--h3-color);
+				background-color: color-mix(in srgb, var(--h3-color) var(--h-trasparency), transparent);
+			}
+
+			& .tree-item-self:hover .tree-item-inner,
+			& .tree-item-self.is-active .tree-item-inner,
+			& .tree-item-self.is-clickable:hover .tree-item-inner {
+				color: var(--h3-color);
+				background-color: color-mix(in srgb, var(--h3-color) var(--h-hover-trasparency), transparent);
+			}
+		
+			& .tree-item {
+				
+				& .tree-item-inner {
+					color: var(--h4-color);
+					background-color: color-mix(in srgb, var(--h4-color) var(--h-trasparency), transparent);
+				}
+
+				& .tree-item-self:hover .tree-item-inner,
+				& .tree-item-self.is-active .tree-item-inner,
+				& .tree-item-self.is-clickable:hover .tree-item-inner {
+					color: var(--h4-color);
+					background-color: color-mix(in srgb, var(--h4-color) var(--h-hover-trasparency), transparent);
+				}
+			
+				& .tree-item {
+					
+					& .tree-item-inner {
+						color: var(--h5-color);
+						background-color: color-mix(in srgb, var(--h5-color) var(--h-trasparency), transparent);
+					}
+
+					& .tree-item-self:hover .tree-item-inner,
+					& .tree-item-self.is-active .tree-item-inner,
+					& .tree-item-self.is-clickable:hover .tree-item-inner {
+						color: var(--h5-color);
+						background-color: color-mix(in srgb, var(--h5-color) var(--h-hover-trasparency), transparent);
+					}
+				
+					& .tree-item {
+						
+						& .tree-item-inner {
+							color: var(--h6-color);
+							background-color: color-mix(in srgb, var(--h6-color) var(--h-trasparency), transparent);
+						}
+
+						& .tree-item-self:hover .tree-item-inner,
+						& .tree-item-self.is-active .tree-item-inner,
+						& .tree-item-self.is-clickable:hover .tree-item-inner {
+							color: var(--h6-color);
+							background-color: color-mix(in srgb, var(--h6-color) var(--h-hover-trasparency), transparent);
+						}
+					}
+				}
+			}
+		}
+	}
+}
