@@ -29,6 +29,7 @@
 | color-cyan   | 2dcec9   | color-base05 | 1e1e1e   | 8.56:1         | WCAG N AAA |
 
 ### Headings with colored background
+> **NOT UP TO DATE**
 
 | Foreground   | Fg value | Background      | Bg value | Contrast ratio | Vote       |
 | ------------ | -------- | --------------- | -------- | -------------- | ---------- |
