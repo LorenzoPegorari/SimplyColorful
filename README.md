@@ -1,7 +1,3 @@
-> Thank you so much for over **1000** downloads in less than a month! - Lorenzo (2024/11/11)
-
----
-
 ![](/imgs/header.png)
 
 **Simply Colorful** is an [Obsidian](https://obsidian.md/) theme for desktop created by [LorenzoPegorari](https://github.com/LorenzoPegorari).
