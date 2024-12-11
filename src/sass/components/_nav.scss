@@ -1,11 +1,8 @@
 /* Nav */
 
-/* Font weight */
-.nav-folder {
-	font-weight: 500;
-}
+/* Font weight for files only */
 
-.nav-file-title, .nav-file:hover, .nav-file-title.is-active {
+.nav-file-title, body:not(.is-grabbing) .tree-item-self.is-clickable.nav-file-title:hover {
 	font-weight: 400;
 }
 
