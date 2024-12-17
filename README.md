@@ -3,19 +3,26 @@
 **Simply Colorful** is an [Obsidian](https://obsidian.md/) theme for desktop created by [LorenzoPegorari](https://github.com/LorenzoPegorari).
 
 This theme was created for the following reasons:
-1. to make the most prominent parts of the notes more easily identifiable, making *skimming* faster,
-2. to quickly distinguish every portion of the note (different headings, internal links, external links, etc.),
-3. to give the user a visually pleasing note-taking experience by making a strong use of the chosen personalized *accent color*.
+1. to make the most prominent parts of the notes pop out more, making *skimming* faster
+2. to quickly distinguish every portion of the notes (different headings, internal links, external links, etc.)
+3. to give the user a visually pleasing note-taking experience by making a strong use of the chosen personalized *accent color*
 ## Index
 - [Images](#images)
+	- [Dark theme](#dark-theme)
+	- [Light theme](#light-theme)
 - [Features](#features)
 - [Installation](#installation)
+	- [Directly from Obsidian](#directly-from-obsidian)
+	- [Alternate method](#alternate-method)
 - [Feedback](#feedback)
 - [Credits](#credits)
 - [License](#license)
 - [Disclaimer](#disclaimer)
 # Images
-_Accent color used in examples_: **RGB** = 245, 92, 92; **HSL** = 0, 88%, 66%.
+_Accent color used in examples_:
+- **RGB** = 245, 92, 92
+- **HSL** = 0, 88%, 66%
+- **HEX** = #F55C5C
 ## Dark theme
 ### Note example:
 ![Note example in dark mode](imgs/dark.png)
@@ -39,6 +46,7 @@ _Accent color used in examples_: **RGB** = 245, 92, 92; **HSL** = 0, 88%, 66%.
 - Support for popular community plugins (Excalidraw, Dataview, Calendar, Advanced Tables, etc.)
 - Support for [Style Settings plugin](https://github.com/mgmeyers/obsidian-style-settings)
 # Installation
+## Directly from Obsidian
 This theme was reviewed by the [Obsidian team](https://github.com/obsidianmd), and was inserted in the [official list of themes](https://github.com/obsidianmd/obsidian-releases/blob/master/community-css-themes.json) after approval on [pull request #4403](https://github.com/obsidianmd/obsidian-releases/pull/4403).
 
 This means that it can be easily installed by following the instruction below:
@@ -46,7 +54,7 @@ This means that it can be easily installed by following the instruction below:
 - open the `Appearance` tab in the `Options` sidemenu,
 - click `Manage` next to `Themes`,
 - search for "**Simply Colorful**" and click `Install and use`.
-
+## Alternate method
 Otherwise it can be installed by following the instruction below:
 - open Obsidian `Settings`,
 - open the `Appearance` tab in the `Options` sidemenu,
@@ -67,7 +75,7 @@ A **big** thanks to [@kepano](https://github.com/kepano)'s [Minimal Theme](https
 
 Please support @kepano on [X](https://x.com/kepano) or [buy @kepano a coffee](https://www.buymeacoffee.com/kepano).
 # License
-This theme is licensed under the *MIT License*.
+This theme is licensed under the [MIT License](LICENSE).
 # Disclaimer
 This theme is provided as is, and is designed for my personal use of Obsidian on Windows 10 and Windows 11. As such, it is not thoroughly tested across all operating systems and use cases.
 
