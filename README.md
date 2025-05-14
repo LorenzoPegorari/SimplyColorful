@@ -1,7 +1,9 @@
 ![](/imgs/header.png)
 
 <div align="center">
-	<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Freleases.obsidian.md%2Fstats%2Ftheme&query=%24.Simply%20Colorful.download&style=for-the-badge&logo=obsidian&logoColor=white&label=downloads&labelColor=404040&color=8A5CF5">
+	<img alt="License" src="https://img.shields.io/github/license/LorenzoPegorari/SimplyColorful?style=for-the-badge&label=license&labelColor=404040&color=354FC5">
+	<img alt="Obsidian Downloads" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Freleases.obsidian.md%2Fstats%2Ftheme&query=%24.Simply%20Colorful.download&style=for-the-badge&logo=obsidian&logoColor=white&label=downloads&labelColor=404040&color=7852EE">
+	<img alt="GitHub Stars" src="https://img.shields.io/github/stars/LorenzoPegorari/SimplyColorful?style=for-the-badge&logo=github&logoColor=white&label=github%20stars&labelColor=404040&color=D5399C">
 </div>
 <hr>
 
