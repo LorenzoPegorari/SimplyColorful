@@ -1,0 +1,59 @@
+/* Bases */
+
+
+/* Tables */
+.workspace-leaf-content[data-type="bases"] {
+	--bases-table-header-weight: var(--table-header-weight); 
+	--bases-table-border-color: var(--table-border-color);
+	--bases-cards-group-padding: 24px;
+}
+
+.workspace-leaf-content[data-type~="bases"] .bases-thead .bases-tr > .bases-td {
+	border-bottom: var(--bases-table-row-border-width) solid var(--bases-table-border-color);
+}
+
+.workspace-leaf-content[data-type~="bases"] .bases-thead .bases-table-header {
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.workspace-leaf-content[data-type~="bases"] .bases-thead .bases-table-header-label {
+	font-weight: var(--font-bold);
+	
+	gap: 5px;
+}
+
+.workspace-leaf-content[data-type~="bases"] .bases-tbody .bases-tr > .bases-td,
+.workspace-leaf-content[data-type~="bases"] .bases-thead .bases-tr > .bases-td {
+	background-color: var(--dataview-table-odd-bg-color);
+}
+
+.workspace-leaf-content[data-type~="bases"] .bases-tbody .bases-tr:hover > .bases-td,
+.workspace-leaf-content[data-type~="bases"] .bases-thead .bases-tr:hover > .bases-td {
+	background-color: color-mix(
+		in srgb,
+		hsl(var(--accent-h), var(--accent-s), var(--accent-l)) 15%,
+		var(--dataview-table-odd-bg-color)
+	);
+}
+
+.workspace-leaf-content[data-type~="bases"] .bases-tbody .bases-tr > .bases-td:nth-child(even),
+.workspace-leaf-content[data-type~="bases"] .bases-thead .bases-tr > .bases-td:nth-child(even) {
+	background-color: var(--dataview-table-even-bg-color);
+}
+
+.workspace-leaf-content[data-type~="bases"] .bases-tbody .bases-tr:hover > .bases-td:nth-child(even),
+.workspace-leaf-content[data-type~="bases"] .bases-thead .bases-tr:hover > .bases-td:nth-child(even) {
+	background-color: color-mix(
+		in srgb,
+		hsl(var(--accent-h), var(--accent-s), var(--accent-l)) 15%,
+		var(--dataview-table-even-bg-color)
+	);
+}
+
+/* Cards */
+.workspace-leaf-content[data-type="bases"] .bases-cards-item:hover {
+	box-shadow: 0 0 0 1px hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+}
