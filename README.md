@@ -35,6 +35,8 @@ _Accent color used in examples_:
 ![Note example in dark mode](imgs/dark.png)
 ### Live preview and note outline example:
 ![Live preview and note outline example in dark mode](imgs/note-outline/note-outline-dark.png)
+### Bases table example:
+![Bases table example in dark mode](imgs/bases/bases-table-dark.png)
 ### Dataview table example:
 ![Dataview table example in dark mode](imgs/dataview/dataview-table-dark.png)
 ## Light theme
@@ -42,6 +44,8 @@ _Accent color used in examples_:
 ![Note example in light mode](imgs/light.png)
 ### Live preview and note outline example:
 ![Live preview and note outline example in light mode](imgs/note-outline/note-outline-light.png)
+### Bases table example:
+![Bases table example in light mode](imgs/bases/bases-table-light.png)
 ### Dataview table example:
 ![Dataview table example in light mode](imgs/dataview/dataview-table-light.png)
 # Features
@@ -49,7 +53,7 @@ _Accent color used in examples_:
 - Support for all window frame style (hidden, Obsidian frame, native frame)
 - Support for both stacked tabs and sliding panes
 - Colorful headings in both *Live Preview mode* and *Reading mode* (with a sweet animation while in *Reading mode*)
-- Support for core plugins
+- Support for core plugins (*from version 0.5.0 even for Bases!*)
 - Support for popular community plugins (Excalidraw, Dataview, Calendar, Advanced Tables, etc.)
 - Support for [Style Settings plugin](https://github.com/mgmeyers/obsidian-style-settings)
 # Installation
