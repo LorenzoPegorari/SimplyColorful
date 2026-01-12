@@ -7,12 +7,12 @@
 </div>
 <hr>
 
-**Simply Colorful** is an [Obsidian](https://obsidian.md/) theme for desktop created by [LorenzoPegorari](https://github.com/LorenzoPegorari).
+**Simply Colorful** is an [Obsidian](https://obsidian.md/) theme for desktop and mobile created by [LorenzoPegorari](https://github.com/LorenzoPegorari).
 
-This theme was created for the following reasons:
-1. to make the most prominent parts of the notes pop out more, making *skimming* faster
-2. to quickly distinguish every portion of the notes (different headings, internal links, external links, etc.)
-3. to give the user a visually pleasing note-taking experience by making a strong use of the chosen personalized *accent color*
+This theme was designed with the following goals in mind:
+1. to make the most prominent parts of a note stand out more, making *skimming* faster
+2. to help users quickly distinguish between different elements of a note (different headings, internal links, external links, etc.)
+3. to provide a **simple** and *visually pleasing* note-taking experience through the prominent use of **colors** (particularly the personalized *accent color*)
 ## Index
 - [Images](#images)
 	- [Dark theme](#dark-theme)
