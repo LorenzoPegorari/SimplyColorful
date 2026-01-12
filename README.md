@@ -60,13 +60,13 @@ _Accent color used in examples_:
 ## Directly from Obsidian
 This theme was reviewed by the [Obsidian team](https://github.com/obsidianmd), and was inserted in the [official list of themes](https://github.com/obsidianmd/obsidian-releases/blob/master/community-css-themes.json) after approval on [pull request #4403](https://github.com/obsidianmd/obsidian-releases/pull/4403).
 
-This means that it can be easily installed by following the instruction below:
+This means that it can be easily installed by following the instructions below:
 - open Obsidian `Settings`,
 - open the `Appearance` tab in the `Options` sidemenu,
 - click `Manage` next to `Themes`,
 - search for "**Simply Colorful**" and click `Install and use`.
 ## Alternate method
-Otherwise it can be installed by following the instruction below:
+Otherwise it can be installed by following the instructions below:
 - open Obsidian `Settings`,
 - open the `Appearance` tab in the `Options` sidemenu,
 - click the *folder icon* next to `Themes`,
