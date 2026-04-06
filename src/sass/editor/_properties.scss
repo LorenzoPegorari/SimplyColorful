@@ -1,0 +1,21 @@
+/* Properties */
+
+.is-mobile .markdown-preview-view.show-properties .metadata-container {
+	border-radius: var(--touch-radius-xxs);
+}
+
+.is-mobile .metadata-container > .metadata-properties-heading {
+	padding: var(--size-4-1) var(--size-4-3);
+}
+
+.is-mobile .metadata-container > .metadata-properties-heading > .metadata-properties-title {
+	color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+}
+
+.is-mobile .metadata-container > .metadata-content {
+	transform: none;
+	width: inherit;
+	margin: var(--size-4-2) var(--size-4-3);
+	border-radius: 0;
+	padding: 0;
+}

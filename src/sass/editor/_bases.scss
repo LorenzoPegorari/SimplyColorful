@@ -1,7 +1,6 @@
 /* Bases */
 
-
-/* Tables */
+/* Bases tables */
 .workspace-leaf-content[data-type="bases"] {
 	--bases-table-header-weight: var(--table-header-weight); 
 	--bases-table-border-color: var(--table-border-color);
@@ -64,7 +63,7 @@
 	);
 }
 
-/* Cards */
+/* Bases cards */
 .workspace-leaf-content[data-type="bases"] .bases-cards-item:hover,
 .bases-embed .bases-cards-item:hover {
 	box-shadow: 0 0 0 1px hsl(var(--accent-h), var(--accent-s), var(--accent-l));
