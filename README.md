@@ -81,6 +81,8 @@ Otherwise it can be installed by following the instructions below:
 If you encounter any issues or have any suggestions, feel free to contact me on the [Obsidian discord](https://discord.com/invite/obsidianmd) (@UberLias) or on the [main discussion in the Obsidian forum](https://forum.obsidian.md/t/theme-simply-colorful/89992).
 
 You can also [submit an issue](https://github.com/LorenzoPegorari/SimplyColorful/issues) or raise a [pull request](https://github.com/LorenzoPegorari/SimplyColorful/pulls) if you want.
+
+Finally, you can also view this theme on its dedicated page within the [Obsidian Community Directory](https://community.obsidian.md/themes/simply-colorful).
 # Credits
 A **big** thanks to [@kepano](https://github.com/kepano)'s [Minimal Theme](https://github.com/kepano/obsidian-minimal), that I used as a reference for this theme.
 
